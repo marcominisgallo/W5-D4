@@ -21,11 +21,11 @@ section {
     justify-content: center;
     align-items: center;
     margin-top: 5em;
-    /*animation: incolla 0.3s ease-in-out forwards;
-    opacity: 0;*/
+    animation: incolla 0.3s ease-in-out backwards;
+    opacity: 1;
 }
 
-/*@keyframes incolla {
+@keyframes incolla {
     0% {
         transform: scale(0.5);
         opacity: 0;
@@ -34,7 +34,7 @@ section {
         transform: scale(1) ;
         opacity: 1;
     }
-} */
+} 
 
 h4 {
     font-size: 3em;
